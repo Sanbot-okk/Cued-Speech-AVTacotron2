@@ -18,7 +18,7 @@ The **AVTacotron2** architecture is based on **Tacotron2**, described in:
 - No emotion modeling is included in this implementation.  
 
 📷 **AVTacotron2 for ACSG Architecture**  
-![AVTacotron2 Architecture](AVTacotron2_cs.pdf)  
+![AVTacotron2 Architecture](AVTacotron2_cs.png)  
 
 ---
 
