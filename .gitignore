@@ -1,0 +1,8 @@
+filelists/
+logs/
+outputs_GIPSA/
+outputs_LJSpeech/
+waveglow/
+
+syn_waveglow.txt
+tacotron2.txt
