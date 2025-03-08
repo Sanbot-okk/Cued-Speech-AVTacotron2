@@ -36,10 +36,13 @@ The **AVTacotron2** architecture is based on **Tacotron2**, described in:
 
 ### **🚀 Inference**
 Script: `inference.py`  
-7. **Text-to-Speech (TTS) Inference:**    
-   - Use **[Waveglow](https://github.com/NVIDIA/waveglow)** for vocoding.  
-8. **Cued Speech Synthesis:** 
-   - To Visualize, Run `Visualize-DTW.ipynb`
+
+7. **Text-to-Speech (TTS) Inference:**  
+   - Use **[Waveglow](https://github.com/NVIDIA/waveglow)** for vocoding.
+
+8. **Cued Speech Synthesis:**  
+   - To visualize, run `Visualize-DTW.ipynb`
+
 ---
 
 ## **🌍 Demo Page**  
@@ -70,7 +73,7 @@ Under Cued Speech Synthesis at [My PhD](https://sites.google.com/view/sanjana-sa
 
 ## Inference
 TTS : `python inference.py`  
-ACSG: `python inference.py` + `jupyter notebook Visualize-DTW.ipynb` to Visualize
+ACSG: `python inference.py` + `jupyter notebook Visualize-DTW.ipynb` to visualize
 
 # Acknowledgements
 This work, as part of the Comm4CHILD project, has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie Grant Agreement No 860755.
