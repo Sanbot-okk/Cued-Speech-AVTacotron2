@@ -45,7 +45,7 @@ The script `inference.py` runs `do_syn.py` and `do_inverse_sample.py`
 
 ---
 
-## **🌍 Demo Page**  
+## **🌍 Synthesized Cued Speech Features Demo**  
 Under Cued Speech Synthesis at [My PhD](https://sites.google.com/view/sanjana-sankar/my-phd)
 
 ---
