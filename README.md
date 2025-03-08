@@ -35,15 +35,22 @@ The **AVTacotron2** architecture is based on **Tacotron2**, described in:
 6. **Loss Function:** Integrated **Mean Squared Error (MSE)** loss for hand & lip visual features in `loss_function.py`, also adding it to the total loss during training.  
 
 ### **🚀 Inference**
-7. **Text-to-Speech (TTS) Inference:**  
-   - Script: `do_syn.py`  
-   - Uses **[Waveglow](https://github.com/NVIDIA/waveglow)** for vocoding.  
-8. **Cued Speech Synthesis:** *(To be added)*  
-
+Script: `do_syn.py`
+Paths to be modified
+   - text_file_path  
+   - checkpoint_path 
+   - output_directory
+7. **Text-to-Speech (TTS) Inference:**    
+   - Use **[Waveglow](https://github.com/NVIDIA/waveglow)** for vocoding.  
+8. **Cued Speech Synthesis:** 
+   - Run `inference.py` 
+     Paths to be modified
+        - output_folder
+   - To Visualize, Run `Visualize-DTW.ipynb`
 ---
 
 ## **🌍 Demo Page**  
-*(To be added)*  
+Under Cued Speech Synthesis at [My PhD](https://sites.google.com/view/sanjana-sankar/my-phd)
 
 ---
 
@@ -69,8 +76,8 @@ The **AVTacotron2** architecture is based on **Tacotron2**, described in:
 `python train.py --output_directory=outdir --log_directory=logdir`
 
 ## Inference
-TTS : `python do_syn.py`
-ACSG: `.ipynb` *(To be added)* 
+TTS : `python inference.py`
+ACSG: `python inference.py` + `jupyter notebook Visualize-DTW.ipynb` to Visualize
 
 # Acknowledgements
 This work, as part of the Comm4CHILD project, has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie Grant Agreement No 860755.

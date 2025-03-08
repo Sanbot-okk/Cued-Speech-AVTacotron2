@@ -28,8 +28,8 @@ def create_hparams(hparams_string=None, verbose=False):
         load_mel_from_disk=True,
         # training_files='filelists/ljs_audio_text_train_filelist.txt',
         # validation_files='filelists/ljs_audio_text_val_filelist.txt',
-        training_files='filelists/sankars/train_cslm2023_phon.txt',
-        validation_files='filelists/sankars/test_cslm2023_phon.txt',
+        training_files='filelists/train_cslm2023_phon.txt',
+        validation_files='filelists/test_cslm2023_phon.txt',
         text_cleaners=['basic_cleaners'],
 
         load_visual_features=True,
@@ -46,7 +46,7 @@ def create_hparams(hparams_string=None, verbose=False):
         n_mel_channels=80,
         mel_fmin=0.0,
         mel_fmax=8000.0,
-        prefix_audio="/research/crissp/sankars/AVTacotron2_data/CSLM2023/audio_mel_avt2_npy/",
+        prefix_audio="AVTacotron2_data/CSLM2023/audio_mel_avt2_npy/",
         suffix_audio="_mel.npy",
 
         ################################
@@ -54,7 +54,7 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         au_sampling_rate=30,
         n_au_channels=20,
-        prefix_visual="/research/crissp/sankars/AVTacotron2_data/CSLM2023_new/lips_10_hands_10_pca_npy/",
+        prefix_visual="AVTacotron2_data/CSLM2023_new/lips_10_hands_10_pca_npy/",
         suffix_visual="_pca_both.npy",
 
         ################################
