@@ -35,7 +35,7 @@ The **AVTacotron2** architecture is based on **Tacotron2**, described in:
 6. **Loss Function:** Integrated **Mean Squared Error (MSE)** loss for hand & lip visual features in `loss_function.py`, also adding it to the total loss during training.  
 
 ### **🚀 Inference**
-The script `inference.py` run `do_syn.py` and `do_inverse_sample.py`
+The script `inference.py` runs `do_syn.py` and `do_inverse_sample.py`
 
 7. **Text-to-Speech (TTS) Inference:**  
    - Use **[Waveglow](https://github.com/NVIDIA/waveglow)** for vocoding.
@@ -45,7 +45,7 @@ The script `inference.py` run `do_syn.py` and `do_inverse_sample.py`
 
 ---
 
-## **🌍 Demo Page**  
+## **🌍 Synthesized Cued Speech Features Demo**  
 Under Cued Speech Synthesis at [My PhD](https://sites.google.com/view/sanjana-sankar/my-phd)
 
 ---
